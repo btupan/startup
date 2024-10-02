@@ -199,7 +199,7 @@ window.onclick = function(event) {
 };
 
 // Get the modal element
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("heartModal");
 
 // Get the close button
 var closeBtn = document.getElementsByClassName("close")[0];
