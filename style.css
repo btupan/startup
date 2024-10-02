@@ -43,8 +43,8 @@ body {
 }
 @media (max-width: 375px) {
     .center-image {
-        width: 155px;
-        height: 155px;
+        width: 75px;
+        height: 75px;
     }
 }
 .heart-icon {
