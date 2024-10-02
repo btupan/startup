@@ -1,0 +1,455 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #20242d;
+}
+@font-face {
+    font-family: 'Mister Grape'; /* Name of the font */
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('https://fonts.cdnfonts.com/s/118133/Mister Grape - Personal Use.woff') format('woff');
+}
+.mrg-font{
+    font-family: 'Mister Grape', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color:#ffff;
+}
+.mindmap-container {
+    position: relative;
+    width: 800px;
+    height: 800px;
+}
+.center-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #333;
+}
+.heart-icon {
+    position: absolute;
+    color: red;
+    font-size: 1.5rem;
+}
+
+.icon1:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon3:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon4:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon5:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon6:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon7:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon8:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon9:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon10:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon11:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon12:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon13:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon14:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon15:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon16:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon17:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon18:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon19:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon20:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon21:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon22:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon23:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon24:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon25:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon26:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon27:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon28:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon29:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon30:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon31:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon32:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon33:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon34:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon35:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon36:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon37:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon38:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon39:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon40:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon41:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon42:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon43:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon44:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon45:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon46:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon47:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon48:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon49:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.icon50:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+/* Positioning the icons to approximate a heart shape */
+/* Top row */
+.icon1 { top: 8%; left: 50%; transform: translateX(-50%); }
+.icon2 { top: 12%; left: 45%; transform: translateX(-50%); }
+.icon3 { top: 12%; left: 55%; transform: translateX(-50%); }
+.icon4 { top: 16%; left: 40%; transform: translateX(-50%); }
+.icon5 { top: 16%; left: 60%; transform: translateX(-50%); }
+
+/* Upper mid */
+.icon6 { top: 20%; left: 35%; transform: translateX(-50%); }
+.icon7 { top: 20%; left: 65%; transform: translateX(-50%); }
+.icon8 { top: 24%; left: 30%; transform: translateX(-50%); }
+.icon9 { top: 24%; left: 70%; transform: translateX(-50%); }
+
+/* Mid */
+.icon10 { top: 28%; left: 25%; transform: translateX(-50%); }
+.icon11 { top: 28%; left: 75%; transform: translateX(-50%); }
+.icon12 { top: 32%; left: 22%; transform: translateX(-50%); }
+.icon13 { top: 32%; left: 78%; transform: translateX(-50%); }
+
+/* Heart curves */
+.icon14 { top: 36%; left: 20%; transform: translateX(-50%); }
+.icon15 { top: 36%; left: 80%; transform: translateX(-50%); }
+.icon16 { top: 40%; left: 18%; transform: translateX(-50%); }
+.icon17 { top: 40%; left: 82%; transform: translateX(-50%); }
+.icon18 { top: 44%; left: 17%; transform: translateX(-50%); }
+.icon19 { top: 44%; left: 83%; transform: translateX(-50%); }
+
+/* Lower half */
+.icon20 { top: 48%; left: 18%; transform: translateX(-50%); }
+.icon21 { top: 48%; left: 82%; transform: translateX(-50%); }
+.icon22 { top: 52%; left: 20%; transform: translateX(-50%); }
+.icon23 { top: 52%; left: 80%; transform: translateX(-50%); }
+.icon24 { top: 56%; left: 25%; transform: translateX(-50%); }
+.icon25 { top: 56%; left: 75%; transform: translateX(-50%); }
+
+/* Lower rows */
+.icon26 { top: 60%; left: 30%; transform: translateX(-50%); }
+.icon27 { top: 60%; left: 70%; transform: translateX(-50%); }
+.icon28 { top: 64%; left: 35%; transform: translateX(-50%); }
+.icon29 { top: 64%; left: 65%; transform: translateX(-50%); }
+.icon30 { top: 68%; left: 40%; transform: translateX(-50%); }
+.icon31 { top: 68%; left: 60%; transform: translateX(-50%); }
+
+/* Bottom rows */
+.icon32 { top: 72%; left: 45%; transform: translateX(-50%); }
+.icon33 { top: 72%; left: 55%; transform: translateX(-50%); }
+.icon34 { top: 76%; left: 48%; transform: translateX(-50%); }
+.icon35 { top: 76%; left: 52%; transform: translateX(-50%); }
+.icon36 { top: 80%; left: 50%; transform: translateX(-50%); }
+
+/* Filling the lower heart */
+.icon37 { top: 84%; left: 47%; transform: translateX(-50%); }
+.icon38 { top: 84%; left: 53%; transform: translateX(-50%); }
+.icon39 { top: 88%; left: 46%; transform: translateX(-50%); }
+.icon40 { top: 88%; left: 54%; transform: translateX(-50%); }
+.icon41 { top: 92%; left: 45%; transform: translateX(-50%); }
+.icon42 { top: 92%; left: 55%; transform: translateX(-50%); }
+
+/* Base of the heart */
+.icon43 { top: 96%; left: 48%; transform: translateX(-50%); }
+.icon44 { top: 96%; left: 52%; transform: translateX(-50%); }
+.icon45 { top: 104%; left: 50%; transform: translate(-50%, -100%); }
+
+.heart {
+    width: 50px; /* Width of the heart */
+    height: 50px; /* Height of the heart */
+    background-color: pink; /* Heart color */
+    position: relative; /* For absolute positioning of pseudo-elements */
+    margin: 10px; /* Space between hearts */
+    cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    width: 50px; /* Size of the top curves */
+    height: 50px; /* Size of the top curves */
+    background-color: pink; /* Heart color */
+    border-radius: 50%; /* Make them circular */
+    position: absolute; /* Position relative to the heart */
+}
+
+.heart::before {
+    left: 25px; /* Shift to the right */
+    top: 0; /* Align at the top */
+}
+
+.heart::after {
+    left: 0; /* Align at the left */
+    top: 0; /* Align at the top */
+}
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+    justify-content: center; /* Center modal horizontally */
+    align-items: center; /* Center modal vertically */
+}
+
+.modal-content {
+    position: relative;
+    padding: 30px; /* Space for heart shape */
+    background: pink; /* Heart color */
+    width: 300px; /* Width of the modal */
+    text-align: center; /* Center text inside modal */
+    border-radius: 50%; /* Make it circular */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 120px; /* Width of the vertical navigation bar */
+    height: 100vh; /* Full height */
+    display: none;
+    flex-direction: column; /* Arrange items vertically */
+    padding: 20px; /* Padding for the navbar */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    position: fixed; /* Fix the navbar to the left side */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure it is on top of other elements */
+    background-color: #2a2f3b; /* nav background color */
+}
+
+.icon-tile {
+    width: 100px; /* Width of the tile */
+    height: 100px; /* Height of the tile */
+    background-color: #ffff; /* Tile background color */
+    display: flex; /* Use flexbox to center the icon */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 10px 0; /* Space between tiles */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.icon-tile:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
