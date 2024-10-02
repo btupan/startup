@@ -198,6 +198,28 @@ window.onclick = function(event) {
     }
 };
 
+// Get the modal element
+var modal = document.getElementById("myModal");
+
+// Get the close button
+var closeBtn = document.getElementsByClassName("close")[0];
+
+// Function to close modal when clicking outside the modal-content
+function closeModalOnOutsideClick(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+
+// Add event listeners for desktop (click) and mobile (touchstart)
+window.addEventListener("click", closeModalOnOutsideClick);
+window.addEventListener("touchstart", closeModalOnOutsideClick);
+
+// Close the modal when the user clicks on <span> (x)
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+}
+
 function ShowNavBar(){
     const testElement = document.querySelector('.navbar'); // Select the element with class 'test'
             
