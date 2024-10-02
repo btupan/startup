@@ -23,6 +23,12 @@ body {
     position: relative;
     width: 800px;
     height: 800px;
+    margin-top: -75px;
+    max-width: 90vw;
+}
+.title-container{
+    text-align: center;
+    max-width: 90vw;
 }
 .center-image {
     position: absolute;
