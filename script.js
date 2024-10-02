@@ -67,11 +67,11 @@ function openModal(ReasonNumber) {
         break;
         case 17:
             modalBody.innerHTML = '<h2>Je bent een parel</h2>';
-            modalBody.innerHTML += '<img src="O:\\Shaun 20th Birthday Project\\Images\\Parel.jpg" width="100" height="100" style="border-radius:50%;">';
+            modalBody.innerHTML += '<img src="Parel.jpg" width="100" height="100" style="border-radius:50%;">';
         break;
         case 18:
             modalBody.innerHTML = '<h2>Je hebt leuke knuffels</h2>';
-            modalBody.innerHTML += '<img src="O:\\Shaun 20th Birthday Project\\Images\\Aapje.png" width="100" height="100" style="border-radius:50%;">';
+            modalBody.innerHTML += '<img src="Aapje.png" width="100" height="100" style="border-radius:50%;">';
         break;
         case 19:
             modalBody.innerHTML = '<h2>Je hebt een leuke kledingstijl</h2>';
